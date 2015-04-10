@@ -32,7 +32,7 @@ end
 	gem 'rails_12factor'
 end
 
-group :doc do  
-gem 'sdoc', '~> 0.4.0',     
+
+gem 'sdoc', '~> 0.4.0', group: :doc       
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
